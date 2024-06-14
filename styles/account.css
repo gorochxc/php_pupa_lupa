@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.accountPage {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e5e5e5;
+    padding: 15px;
+}
+
+.userData {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+}
+
+h3 {
+    font-weight: 500;
+    margin: 5px;
+}
+
+.logoutButton {
+    align-self: center;
+    margin-top: 20px;
+    height: 30px;
+    width: fit-content;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
